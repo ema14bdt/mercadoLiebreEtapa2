@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+img{
+    width: 100vw;
+}
+
+
+/* header */
+
+header{
+    background-color: var(--color-amarillo);
+    padding: 1em 0;
+}
+
+.logo{
+    margin-left: 1rem;
+    width: 200px;
+}
+
+.search{
+    margin-left: 1rem;
+}
+
+header p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header ul{
+    list-style: none;
+    padding: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.burguer-menu{
+    display: block;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    background-color: var(--color-celeste);
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+}
+
+/* main */
+
+main{
+    font-size: 12px;
+    background-color: var(--color-gris-claro);
+}
+
+.lastview, .offers{
+    margin-top: 1rem;
+}
+
+.lastview h2, .offers h2{
+    font-size: 24px;
+}
+
+.product p{
+    font-size: 18px;
+}
+
+.product span, h4{
+    font-size: 16px;
+}
+
+/* footer */
+
+footer{
+    background-color: white;
+    text-align: center;
+    color: var(--color-gris-oscuro);
+}
+
+footer i{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    
+}
+
+footer h4{
+    font-size: large;
+}
+
+footer p{
+    font-size: 12px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.copyright{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
